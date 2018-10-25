@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,600|Source+Sans+Pro:200,400');
+
+/* //////// TYPE SELECTORS //////// */
+
+p, footer {
+  font: 1.2em 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  line-height: 1.5em;
+}
+
+nav {
+  margin: 6px 0 0 0;
+}
+
+h3 a {
+  font: 1.5em 'PT Sans', sans-serif;
+}
+
+div > h3 a {
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em
+}
+
+nav h3 a {
+  vertical-align: middle;
+  font-size: 1.1em;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+header a:link, header a:visited, header a:active {
+  color: #888;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+header a:hover {
+  color: #444;
+  text-decoration: none;
+  letter-spacing: 1.1px;
+}
+
+header div.wrapper {
+  height: auto;
+  line-height: normal;
+  display: block;
+  align-content: center;
+}
+
+
+
+
+/* /////// CLASS SELECTORS ///////// */
+
+.name {
+  float: left;
+}
+
+.links {
+  display: inline-block;
+  float: right;
+  vertical-align: bottom;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+/* /////// ID SELECTORS //////////// */
+
+/* ////////// MEDIA ////////////////*/
+
+img {
+  max-width: 100%;
+  min-width: 228px
+}
+
+/* ////////// LAYOUT ///////////// */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 960px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+header {
+  top: 0
+  left: 0;
+  width: 100%;
+}
+
+footer {
+  clear: both;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.col-2 {
+  float: left;
+  width: 32%;
+}
+
+.col-1 {
+  float: right;
+  width: 66%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
