@@ -122,10 +122,11 @@ header {
 
 footer {
   clear: both;
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   text-align: right;
+  font-size: 0.9em
 }
 
 .col-2 {
