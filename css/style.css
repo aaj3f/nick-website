@@ -8,6 +8,14 @@ p, footer {
   line-height: 1.5em;
 }
 
+section.publication-section p {
+  font-size: 1em;
+}
+
+section.cv-section {
+  font-size: 1.2em;
+}
+
 nav {
   margin: 6px 0 0 0;
 }
@@ -55,6 +63,14 @@ header div.wrapper {
 
 
 /* /////// CLASS SELECTORS ///////// */
+
+p.sub-head {
+  font-weight: 400;
+}
+
+span.university {
+  font-weight: 400;
+}
 
 .name {
   float: left;
